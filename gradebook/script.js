@@ -30,10 +30,6 @@ function getGrade(score) {
     }
 }
 
-function hasPassingGrade(score) {
-    return getGrade(score) !== "F";
-}
-
 function studentMsg(totalScores, studentScore) {
     const classAverage = getAverage(totalScores);
     const studentGrade = getGrade(studentScore);
